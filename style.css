@@ -239,8 +239,54 @@ h3 {
 padding: 0px 0px 20px 0px;
 }
 
-#servicos a, #servicos h3, #servicos h2 {
+#servicos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 100px 0px;
+  width: 100%;
+}
+
+#servicos a, #servicos h2 {
   color: white;
+}
+
+#servicos button {
+  margin-top: 20px;
+}
+
+#wrapped_servicos{  
+  padding: 100px 0px;  
+  max-width: 1140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.servicos_cards {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.servicos_card img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.servicos_card {
+  padding: 0px;    
+  background-color: #161616;
+  width: fit-content;
+  color: white;
+  margin: 10px 20px;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  justify-content: space-between;
 }
 
 #formacao{
