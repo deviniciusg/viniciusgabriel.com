@@ -14,7 +14,7 @@ p{
 } 
 
 a {
-  font-size: 28px;
+  font-size: 22px;
 }
 
 h2 {
@@ -253,17 +253,23 @@ padding: 0px 0px 20px 0px;
   color: white;
 }
 
+#servicos h2 {
+  font-size: 32px;
+  margin-bottom: 14px;
+}
+
 #servicos button {
   margin-top: 20px;
 }
 
 #wrapped_servicos{  
-  padding: 100px 0px;  
+  padding: 80px 0px;  
   max-width: 1140px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 30px;
 }
 
 .servicos_cards {
@@ -282,7 +288,7 @@ padding: 0px 0px 20px 0px;
   background-color: #161616;
   width: fit-content;
   color: white;
-  margin: 10px 20px;  
+  margin: 25px 20px;  
   display: flex;
   flex-direction: column;
   align-items: center;    
@@ -294,7 +300,7 @@ padding: 0px 0px 20px 0px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 100px 0px;
+  padding: 80px 0px;
 }
 
 #formacao a, #formacao h3, #formacao h2{
