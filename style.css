@@ -159,8 +159,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;  
-  height: 120vh;
+  justify-content: center;    
   font-size: 30px;  
   width: 100%;
   color: #161616;
@@ -244,9 +243,10 @@ padding: 0px 0px 20px 0px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  padding: 100px 0px;
+  text-align: center;  
   width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #servicos a, #servicos h2 {
@@ -336,6 +336,20 @@ padding: 0px 0px 20px 0px;
 .porfolio_header button:active{
   position:relative;
 	top:1px;
+}
+
+.portfolio_grid {
+  display: grid;
+  gap: 20px 20px; 
+}
+
+.portfolio_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #161616;
+  color: #161616;
 }
 
 #formacao{
@@ -609,7 +623,40 @@ footer{
     height: 200px;
     opacity: 1;
     transform: translateY(0px);
-}
+
+  }
+
+  .sobre_mim {
+    background-color: #04d4fc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    font-size: 26px;  
+    width: 100%;
+    color: #161616;
+  }
+  
+  #wrapped_sobre_mim{
+    padding: 80px 0px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;      
+    width: 100vw; 
+  }
+
+  #socialmedia_icons {
+    display: none;
+  }
+
+  #container_sobre_mim{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+  }
+
+
 
 }
 
