@@ -161,7 +161,7 @@ h3 {
   align-items: center;
   justify-content: center;    
   font-size: 30px;  
-  width: 100%;
+  width: 100vw;
   color: #161616;
 }
 
@@ -276,7 +276,12 @@ padding: 0px 0px 20px 0px;
 
 .servicos_card img {
   width: 100px;
-  margin-bottom: 10px;
+  margin-bottom: 10px;  
+  transition: transform 0.4s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.servicos_card img:hover {
+  transform: translate3d(0px, -4px, 0);    
 }
 
 .servicos_card {
@@ -290,6 +295,7 @@ padding: 0px 0px 20px 0px;
   align-items: center;    
   justify-content: space-between;
 }
+
 #portfolio {
   display: flex;
   justify-content: center;
@@ -357,8 +363,8 @@ padding: 0px 0px 20px 0px;
 }
 
 .portfolio_card img { 
-  height: 250px;
-  width: max-content;  
+  height: 200px;
+  width: max-content;   
 }
 
 .portfolio_card h4 {
@@ -387,6 +393,10 @@ padding: 0px 0px 20px 0px;
 .portfolio_card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio_header button.active {
+  border-bottom: 2px solid #000;
 }
 
 #formacao{
@@ -466,7 +476,7 @@ padding: 0px 0px 20px 0px;
   background-color: #04d4fc;
   text-align: center;
   padding: 100px 0px;
-  width: 100%;
+  width: 100vw;
 }
 
 .container_depoimentos{
@@ -645,7 +655,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     background-color: #161616;
     height: 0;               
     overflow: hidden;        
@@ -670,7 +680,7 @@ footer{
     align-items: center;
     justify-content: center;  
     font-size: 26px;  
-    width: 100%;
+    width: 100vw;
     color: #161616;
   }
   
