@@ -134,14 +134,15 @@ h3 {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;  
-  height: 75vh;
+  height: 90vh;
   transition: 1s;
   line-height: 1;
   transform: translateY(18px);
 }
 
 #paragrafo_inicial {  
-  width: 45vw;
+  padding-top: 10vh;
+  max-width: 1140px;
   font-size: 60px;    
   font-weight: 600;   
   color: white;  
@@ -380,10 +381,11 @@ padding: 0px 0px 20px 0px;
 .portfolio_card img { 
   height: 200px;
   width: max-content;   
+  scale: 1.05;
 }
 
 .portfolio_card h4 {
-  margin: 15px 0;
+  margin: 25px 0 15px 0;
   font-size: 1.2em;
 }
 
