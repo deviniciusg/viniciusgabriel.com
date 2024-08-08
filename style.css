@@ -52,6 +52,16 @@ h3 {
   max-width: 1140px;
 }
 
+.header_wrapped{
+  width: 100vw;  
+  background-color: #161616;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+}
+
 #header_desktop{ 
   display: flex;
   flex-direction: row;
@@ -60,8 +70,11 @@ h3 {
   align-items: center;
   margin: 15px 0px;    
   height: 10vh;
-  transition: 0.4s
+  transition: 0.4s;  
+  width: 100vw;
+  max-width: 1140px;
 }
+
 
 
 #header_desktop img{
@@ -69,6 +82,8 @@ h3 {
   cursor: pointer;
   max-width: 200px;
 }
+
+
 
 .btn{
   font-size: 18px;
@@ -129,7 +144,7 @@ h3 {
   width: 45vw;
   font-size: 60px;    
   font-weight: 600;   
-  color: white;
+  color: white;  
 }
 
 #paragrafo_inicial p{
@@ -261,7 +276,7 @@ padding: 0px 0px 20px 0px;
 }
 
 #wrapped_servicos{  
-  max-width: 1140px;
+  max-width: 95vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -277,7 +292,7 @@ padding: 0px 0px 20px 0px;
 .servicos_card img {
   width: 100px;
   margin-bottom: 10px;  
-  transition: transform 0.4s cubic-bezier(0.7, 0, 0.2, 1);
+  transition: transform 0.4s;
 }
 
 .servicos_card img:hover {
@@ -343,7 +358,7 @@ padding: 0px 0px 20px 0px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
-  width: 100%;
+  width: 90%;
   max-width: 1200px;
 }
 
@@ -568,7 +583,7 @@ padding: 0px 0px 20px 0px;
 form {
   background: transparent;
   padding: 20px 5px;
-  width: 100%;
+  width: 95%;
   max-width: 400px;    
 }
 
@@ -576,7 +591,7 @@ input[type="text"],
 input[type="email"],
 input[type="tel"],
 textarea {
-  width: 100%;
+  width: 95%;
   padding: 10px 14px;
   margin: 5px 2.5px;
   background-color: transparent;  
@@ -673,7 +688,9 @@ footer{
 
   }
 
-  .sobre_mim {
+
+
+  #sobre_mim {
     background-color: #04d4fc;
     display: flex;
     flex-direction: column;
@@ -688,12 +705,13 @@ footer{
     padding: 80px 0px;    
     display: flex;
     align-items: center; 
-    width: 100vw; 
+    width: 95vw; 
   }
 
-  #pp_socialmedia {
+  .pp_socialmedia {
     padding: 0px;
     display: flex;
+    flex-direction: column;
     
   }
 
