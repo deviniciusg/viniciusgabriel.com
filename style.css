@@ -69,7 +69,7 @@ h3 {
   justify-content: space-between;
   align-items: center;
   margin: 15px 0px;    
-  height: 10vh;
+  height: 6vh;
   transition: 0.4s;  
   width: 100vw;
   max-width: 1140px;
@@ -134,7 +134,7 @@ h3 {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;  
-  height: 90vh;
+  height: 94vh;
   transition: 1s;
   line-height: 1;
   transform: translateY(18px);
@@ -774,3 +774,52 @@ footer{
   }
 }
 
+/* Página do portfólio */
+
+#main_portfolio {       
+  padding-top: 8vh;
+  max-width: 1140px;
+}
+
+#main_portfolio h2 {
+  color: #04d4fc;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#main_portfolio p, a {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #f4f4f4;
+}
+
+#main_portfolio  a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+#main_portfolio  a:hover {
+  text-decoration: underline;
+}
+
+#main_portfolio img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.wrapped_main_portfolio {     
+  padding: 20px;
+  margin: 30px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
